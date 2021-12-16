@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Topnav Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#home" class="active">News</a>
+        <a href="#home" class="active">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="#about">About</a>
+        <! --- you use javascript:void(0) to return undefined and therefore, avoid opening a new page or refreshing the windonw --->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
